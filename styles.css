@@ -1,0 +1,28 @@
+.container{
+}
+
+nav{
+    border: 1px solid white;
+}
+
+.selection div{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-bottom: 18px;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+}
+
+.button{
+    border-radius: 8px;
+}
+
+.home, .search, .explore, .reels, .messages, .notifications, .create, .profile, .more{
+    transition: background-color 0.40s;
+}
+
+.home:hover, .search:hover, .explore:hover, .reels:hover, .messages:hover, .notifications:hover, .create:hover, .profile:hover, .more:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
